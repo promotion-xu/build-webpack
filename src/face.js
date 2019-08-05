@@ -1,5 +1,5 @@
 
-export default data = {
+export const data = {
     face: {
       start: {
         x: 1025,
