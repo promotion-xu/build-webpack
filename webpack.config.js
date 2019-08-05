@@ -16,7 +16,7 @@ module.exports = {
   plugins: [
     new HtmlWebpackPlugin({
       title: 'Output Management',
-      template: './src/index.html',
+      template: './src/index.html', // 使用自己的html模板
       hash: true
     }),
     // new CleanWebpackPlugin(path.resolve(__dirname, '../dist'), {
